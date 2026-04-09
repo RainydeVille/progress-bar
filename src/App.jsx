@@ -9,7 +9,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <div className="btnDiv">
       <ProgressBar progress={progress} />
       <button onClick={handleProgress}>Increase</button>
     </div>
