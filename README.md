@@ -6,6 +6,8 @@
 
 ## [Live Demo](https://rainydeville.github.io/progress-bar/)
 
+![ProgressBar](https://github.com/user-attachments/assets/6b10bb44-e401-4a6c-927d-ff35afe944c0)
+
 ## Features
 
 - A simple progress meter that upgrades when you push Increase button by 10%.
