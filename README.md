@@ -43,4 +43,4 @@ npm run dev  #or pnpm dev
 - React Router for live pages.
 - Custom font in assets/fonts
 
-Made with 💖 by Rainy 💅
+## Made with 💖 by Rainy 💅
