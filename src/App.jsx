@@ -1,21 +1,12 @@
-import { useState } from "react";
-import ProgressBar from "./ProgressBar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProgressBarPage from "./ProgressBarPage";
 
 export default function App() {
-  const [progress, setProgress] = useState(0);
-
-  function handleProgress(e) {
-    if (progress < 100) {
-      setProgress(progress + 10);
-    } else {
-      setProgress(0);
-    }
-  }
-
   return (
-    <div className="btnDiv">
-      <ProgressBar progress={progress} />
-      <button onClick={handleProgress}>{progress < 100 ? "Increase" : "Reset"}</button>
-    </div>
+    <BrowserRouter basename="/progress-bar">
+      <Routes>
+        <Route path="/" element={<ProgressBarPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
