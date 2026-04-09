@@ -4,14 +4,18 @@ import ProgressBar from "./ProgressBar";
 export default function App() {
   const [progress, setProgress] = useState(0);
 
-  function handleProgress() {
-    setProgress(progress + 10);
+  function handleProgress(e) {
+    if (progress < 100) {
+      setProgress(progress + 10);
+    } else {
+      setProgress(0);
+    }
   }
 
   return (
     <div className="btnDiv">
       <ProgressBar progress={progress} />
-      <button onClick={handleProgress}>Increase</button>
+      <button onClick={handleProgress}>{progress < 100 ? "Increase" : "Reset"}</button>
     </div>
   );
 }
