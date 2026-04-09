@@ -1,16 +1,46 @@
-# React + Vite
+# Progress Bar Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## [Live Demo](https://rainydeville.github.io/progress-bar/)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- A simple progress meter that upgrades when you push Increase button by 10%.
+- Upon reaching 100% you can Reset the meter.
+- Code that is simple to understand and can be reused.
+- A simple sample on props and event handlers.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repo:
+
+```bash
+git clone https://github.com/RainydeVille/progress-bar.git
+```
+
+2. Install dependencies:
+
+```bash
+# Install dependencies
+cd progress-bar
+npm install   # or pnpm install
+```
+
+## Running the project
+
+```bash
+npm run dev  #or pnpm dev
+```
+
+## Technologies
+
+- Vite React framework.
+- Vanilla JavaScript.
+- SCSS for styling.
+- React Router for live pages.
+- Custom font in assets/fonts
+
+Made with 💖 by Rainy 💅
